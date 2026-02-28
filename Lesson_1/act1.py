@@ -12,3 +12,20 @@ print("Updated List : ", lst)
 lst.remove("Banana")
 print(f"Updated List :{Fore.CYAN}{lst}{Style.RESET_ALL}")
 
+lst.sort()
+print("Sorted List:", lst)
+
+lst.pop(1)
+print("Updated List :", lst)
+
+lst.reverse()
+print("Reversed List :", lst)
+
+print("Multiplication on List :", lst*2)
+
+lst = lst[:4]
+print("Sliced List :", lst)
+
+lst.clear()
+print("Updated List :", lst)
+
